@@ -67,7 +67,7 @@ idx = 0
 
 while True:
 
-    with open("/Users/damianwilliams/Desktop/test_data.csv", "a") as f:
+    with open(url, "a") as f:
         writer = csv.writer(f, delimiter=",")
 
     try:
